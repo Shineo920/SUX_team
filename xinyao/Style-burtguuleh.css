@@ -1,6 +1,19 @@
 * {
   box-sizing: border-box;
 }
+header {
+  height: 60px;
+  width: 100%;
+  margin-left: 10px;
+  border-style: ridge;
+  border-radius: 25px;
+  background-color: white;
+  padding-bottom: 10px;
+}
+.menu {
+  color: #2035bb;
+  margin-top: 15px;
+}
 .column {
   float: left;
   width: 45%;
