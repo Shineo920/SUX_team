@@ -3,38 +3,55 @@
   <head>
     <title>Home Page</title>
     <meta charset="utf-8" />
-
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <meta name="keywords" content="job search,ажил хайх, ажлын зар" />
+    <meta
+      name="description"
+      content="job searching web for employee and employer"
+    />
+    <meta name="author" content="Shineo" />
+    <meta http-equiv="refresh" content="30" />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
-    <link rel="stylesheet" type="text/css" href="Style-nuur huudas.css">
+    <link rel="stylesheet" type="text/css" href="Style-nuur huudas.css" />
     <style type="text/css"></style>
   </head>
 
   <body>
-    <div class="header">
-
-      <div class="row">
-        <div class="col-sm-2" style="font-size: 30px; padding-left: 5%;color:  #2035BB">JobMarket</div>
-        
-        <div class="col-sm-2" style="margin-top: 15px;padding-left: 8%"><a class="link1" href="CompanyReviews.html" style="color: #2035bb;font-size: 13px">COMPANY_REVIEWS</a></div>
-        <div class="col-sm-2" style="padding-left: 55%;margin-top: 15px"><a class="link1" href="nevtreh.html" style="color: #2035bb;font-size: 13px">Нэвтрэх</a></div>
-      </div>
-
-    </div>
+    <header>
+      <figure class="logo"></figure>
+      <nav class="menu">
+        <a href="nuur huudas.html" style="padding-left: 5%; font-size: 30px"
+          >JobMarket</a
+        >
+        <a href="companyreview.html" style="padding-left: 8%">COMPANY REVIEW</a>
+        <a href="nevtreh.html" style="padding-left: 55%">Нэвтрэх</a>
+      </nav>
+    </header>
 
     <div class="main">
       <div class="row" style="margin-left: 30px">
-        <div class="column" style="width: 20%; padding: 20px; margin-left: 30px; margin-top: 5px;font-size: 20px">
-         
+        <div
+          class="column"
+          style="
+            width: 20%;
+            padding: 20px;
+            margin-left: 30px;
+            margin-top: 5px;
+            font-size: 20px;
+          "
+        >
           <form action="/action_page.php" style="width: 20px">
-            
-            <select name="mergejil" class="haih" >
+            <select name="mergejil" class="haih">
               <option value="mergejil">Салбар мэргэжил</option>
-                
+
               <option value="bagsh">Багш</option>
               <option value="emch">Эмч</option>
               <option value="injener">Инженер</option>
@@ -42,10 +59,9 @@
           </form>
 
           <form action="/action_page.php">
-  
             <select name="baiguullaga" class="haih">
               <option value="baiguullaga">Байгууллага</option>
-                
+
               <option value="volvo">Таван богд</option>
               <option value="saab">Оюун толгой</option>
               <option value="opel">KFC</option>
@@ -53,8 +69,7 @@
           </form>
 
           <form action="/action_page.php">
-           
-            <select name="hugatsaa" class="haih" >
+            <select name="hugatsaa" class="haih">
               <option value="niitlegdsen hugatsaa">Нийтлэгдсэн хугацаа</option>
 
               <option value="bagsh">2020</option>
@@ -63,9 +78,8 @@
           </form>
 
           <form action="/action_page.php">
-           
-            <select name="tsalin" class="haih" >
-              <option value="tsalin">  Цалин</option>
+            <select name="tsalin" class="haih">
+              <option value="tsalin">Цалин</option>
 
               <option value="emch">500k-800k төгрөг</option>
               <option value="bagsh">800k-1 сая төгрөг</option>
@@ -74,8 +88,7 @@
           </form>
 
           <form action="/action_page.php">
-            
-            <select name="tsag" class="haih" >
+            <select name="tsag" class="haih">
               <option value="ajillah tsag">Ажиллах цаг</option>
 
               <option value="ugluu eelj">Өглөөний ээлж</option>
@@ -85,8 +98,7 @@
           </form>
 
           <form action="/action_page.php">
-           
-            <select name="tuvshin" class="haih" >
+            <select name="tuvshin" class="haih">
               <option value="buren">Мэргэжлийн түвшин</option>
 
               <option value="buren">Бүрэн дунд</option>
@@ -96,8 +108,7 @@
           </form>
 
           <form action="/action_page.php">
-            
-            <select name="bairshil" class="haih" >
+            <select name="bairshil" class="haih">
               <option value="tuv">Байршил</option>
 
               <option value="tuv">Хотын төв</option>
@@ -105,52 +116,55 @@
               <option value="hanuul">Хан-уул дүүрэг</option>
             </select>
           </form>
-          
-          
-          <input type="submit" value="Submit" style="width: 80px;height: 30px;margin-top: 20px;font-size: 15px;color: #2035bb;border-radius: 25px" />
+
+          <input id="inputt" type="submit" value="Submit" />
         </div>
 
-        <div class="column" style="width: 50%">
-          <div class="topnav" style="text-align: center;">
+        <div class="column">
+          <div class="topnav" style="text-align: center">
             <form action="/action_page.php">
-              <input type="text" placeholder="    Ажил хайх эсвэл компани хайх" style="width: 250px;font-size: 13px;border-radius: 25px" name="search" />
+              <input
+                type="text"
+                placeholder="   Ажил хайх эсвэл компани хайх"
+                style="width: 250px; font-size: 13px"
+                name="search"
+              />
               <button type="submit"><i class="fa fa-search">хайх</i></button>
             </form>
 
             <div style="margin-top: 20px">
-              <button type="submit" class="signbtn"  >
-                <a href="page3.html" style="color: #2035bb">Наран Мандал ХХК
-                Цахилгаан Инженер</a>
+              <button type="submit" class="signbtn">
+                <a href="page3.html" style="color: #2035bb"
+                  >Наран Мандал ХХК Цахилгаан Инженер</a
+                >
               </button>
-              <button type="submit" class="signbtn" >
-                <a href="page3.html" style="color: #2035bb">some text...</a>
-              </button>
-              <button type="submit" class="signbtn" >
-                <a href="page3.html" style="color: #2035bb">some text...</a>
-              </button>
-              <button type="submit" class="signbtn" >
-                <a href="page3.html" style="color: #2035bb">some text...</a>
-              </button>
-              <button type="submit" class="signbtn" >
+              <button type="submit" class="signbtn">
                 <a href="page3.html" style="color: #2035bb">some text...</a>
               </button>
               <button type="submit" class="signbtn">
                 <a href="page3.html" style="color: #2035bb">some text...</a>
               </button>
-              <button type="submit" class="signbtn" >
+              <button type="submit" class="signbtn">
                 <a href="page3.html" style="color: #2035bb">some text...</a>
               </button>
-              
+              <button type="submit" class="signbtn">
+                <a href="page3.html" style="color: #2035bb">some text...</a>
+              </button>
+              <button type="submit" class="signbtn">
+                <a href="page3.html" style="color: #2035bb">some text...</a>
+              </button>
+              <button type="submit" class="signbtn">
+                <a href="page3.html" style="color: #2035bb">some text...</a>
+              </button>
             </div>
           </div>
         </div>
 
-        <div class="column" style="width: 20%;text-align: center;">
-          <h2 style="font-size: 15px"><b>ОНЦЛОХ БАЙГУУЛЛАГУУД</b></h2>
-          <div >
+        <div class="column" style="width: 20%; text-align: center">
+          <h2 style="font-size: 20px"><b>ОНЦЛОХ БАЙГУУЛЛАГУУД</b></h2>
+          <div>
             <a href=""><img src="mobicom.png" alt="Avatar" /></a>
             <a href=""><img src="CU.png" alt="Avatar" /></a>
-            
           </div>
 
           <div>
@@ -177,7 +191,9 @@
             <a href=""><img src="minii.png" alt="Avatar" /></a>
             <a href=""><img src="miniso.png" alt="Avatar" /></a>
           </div>
-        <a href=""> <p style="font-size: 40px"><b> ... </b></p></a>
+          <a href="">
+            <p style="font-size: 40px"><b> ... </b></p></a
+          >
         </div>
       </div>
     </div>
