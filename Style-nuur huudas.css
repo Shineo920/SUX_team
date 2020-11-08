@@ -4,7 +4,6 @@ body {
 }
 header {
   height: 60px;
-  width: 100%;
   margin-left: 10px;
   border-style: ridge;
   border-radius: 25px;
@@ -14,6 +13,7 @@ header {
 .menu {
   color: #2035bb;
   margin-top: 15px;
+  text-decoration: none;
 }
 .main {
   height: 600px;
@@ -23,9 +23,11 @@ header {
   height: 50px;
   font-size: 12px;
   background-color: white;
+  margin-top: 20px;
 }
 * {
   box-sizing: border-box;
+  text-align: center;
 }
 .column {
   margin-left: 10px;
@@ -85,4 +87,5 @@ button:hover {
   margin-top: 20px;
   font-size: 15px;
   color: #2035bb;
+  border-radius: 25px;
 }

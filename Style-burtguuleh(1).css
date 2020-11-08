@@ -17,6 +17,7 @@ header {
 }
 * {
   box-sizing: border-box;
+  text-align: center;
 }
 
 input[type="text"],

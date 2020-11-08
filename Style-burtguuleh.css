@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  text-align: center;
 }
 header {
   height: 60px;
@@ -23,10 +24,7 @@ header {
   border: 1px solid black;
   margin: 10px;
   margin-top: 80px;
-  padding: 10px;
-  height: 180px;
   border-radius: 25px;
-  background-color: #c2c2c2;
 }
 
 .row:after {
@@ -58,4 +56,9 @@ body {
 .link {
   color: #2035bb;
   text-align: center;
+}
+img {
+  width: 220px;
+  height: 230px;
+  border-radius: 25px;
 }
