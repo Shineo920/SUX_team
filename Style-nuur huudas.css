@@ -11,9 +11,18 @@ header {
   padding-bottom: 10px;
 }
 .menu {
-  color: #2035bb;
-  margin-top: 15px;
+  display: flex;
   text-decoration: none;
+}
+.menu a {
+  color: #2035bb;
+  margin-left: 20vh;
+}
+.menu #logo {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .main {
   height: 600px;

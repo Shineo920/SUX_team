@@ -11,6 +11,10 @@ header {
   background-color: white;
   padding-bottom: 10px;
 }
+.menu a {
+  color: #2035bb;
+  margin-left: 20vh;
+}
 .menu {
   color: #2035bb;
   margin-top: 15px;
