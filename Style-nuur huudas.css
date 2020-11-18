@@ -25,7 +25,7 @@ html {
 .menu ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 15px;
 }
 .topnav ul {
   list-style-type: none;
@@ -52,8 +52,6 @@ html {
   text-decoration: none;
 }
 .aside {
-  background-color: white;
-  padding: 15px;
   color: #2035bb;
   text-align: center;
   font-size: 14px;
