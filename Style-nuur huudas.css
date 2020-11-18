@@ -110,8 +110,7 @@ html {
 }
 
 .header a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: #efefef;
 }
 
 .header a.active {
@@ -122,6 +121,12 @@ html {
   float: right;
 }
 
-.header .login-container button:hover {
-  background-color: green;
+img {
+  border-radius: 50%;
+  width: 10vh;
+  padding: 5px;
+}
+
+.row {
+  padding-top: 5vh;
 }
