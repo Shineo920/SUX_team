@@ -10,53 +10,49 @@
     />
     <meta name="author" content="Shineo" />
     <meta http-equiv="refresh" content="30" />
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Шинэ хаяг үүсгэх</title>
     <link rel="stylesheet" type="text/css" href="Style-burtguuleh(1).css" />
     <style type="text/css"></style>
   </head>
   <body>   
     <div class="header" style="height: 7vh">
-      <a class="active" href="index.html" style="color: #2035bb">JobMarket</a>
+      <a class="active" href="index.html" style="color: #2035bb"><b>JobMarket</b></a>
       <a href="page4.html" style="color: #2035bb">Company Review</a>
       <div class="login-container">
         <a href="nevtreh.html" style="color: #2035bb">Sign in</a>
       </div>
     </div>
 
-<form action="/action_page.php" style="border:2px solid black;margin-top: 30px;">
-  <p style="font-size: 18px;margin-top: 10px">Шинээр бүргүүлэх хэсэг</p>
+<form action="/action_page.php" style="border:1px solid black;margin-top: 50px;">
+  <p style="font-size: 20px;margin-top: 10px">Шинэ хаяг үүсгэх хэсэг</p>
   
-  <div class="container">
-    
+  <div class="container"> 
     <div>
-    <label for="email" style="font-size: 15px">Цахим хаяг</label>
-    <p><input type="text" name="email" required style="border-radius: 25px;border :0.5px solid black;height: 30px"></p>
+        <label for="email" style="font-size: 15px">Цахим хаяг</label>
+        <p><input type="text" name="email" required style="border :0.5px solid #2035bb;height: 30px"></p>
      </div>
-
      <div>
-    <label for="psw" style="font-size: 15px">Нууц үг</label>
-    <p> <input type="password"  name="psw" style="border-radius: 25px;border :0.5px solid black;height: 30px" required></p>
+        <label for="psw" style="font-size: 15px">Нууц үг</label>
+        <p> <input type="password"  name="psw" style="border :0.5px solid #2035bb;height: 30px" required></p>
      </div>
-
-     <div>
-        <label for="psw-repeat" style="font-size: 15px;">Нүүц үгээ давтан уу</label>
-        <p><input type="password"  name="psw-repeat" style="border-radius: 25px;border :0.5px solid black;height: 30px" required></p>
-      </div>
-
-    <div>
-      <label>
-      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px;margin-top: 20px"> Санах
-      </label>
-    </div>
+     <a href="burtguuleh.html" class="loginbtn">Бүртгүүлэх</a>
   </div>
   
+  <div>
+    <p style="font-size: 16px;margin-top: 10px;"> ————————— or —————————</p>
+  </div>
     <div class="clearfix">
-      <button type="submit" class="signupbtn"><a href="burtguuleh.html" style="text-decoration: none;">Бүртгүүлэх</a></button>
-      <button type="button" class="cancelbtn"><a href="nevtreh.html" style="text-decoration: none;">Буцах</a></button>
-      <button type="submit" class="signbtn" >Google хаягаар нэвтрэх</button>
-      <button type="submit" class="signbtn">Facebook хаягаар нэвтрэх</button>
-      
+      <a href="#" class="fb btn">
+        <i class="fa fa-facebook fa fw" style="color: white;margin-right: 10px;">
+       </i>
+        Log in with Facebook
+      </a>
+      <a href="#" class="google btn">
+        <i class="fa fa-google fa fw" style="color: white;margin-right: 10px;">
+       </i>
+        Log in with Google
+      </a>
     </div>
   </div>
 </form>

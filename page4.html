@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page4</title>
+    <title>Company Review</title>
     <style>
       * {
         box-sizing: border-box;
@@ -11,7 +11,7 @@
 
       body {
         font-family: Arial, Helvetica, sans-serif;
-        background-image: url("11.png");
+        background-color: #efefef;
       }
       header {
         font-size: 30px;
@@ -53,6 +53,25 @@
         padding: 20px;
         text-align: center;
       }
+      .header {
+        overflow: hidden;
+        background-color: white;
+        border-radius: 25px;
+        margin-top: 5px;
+        padding: 10px 35px;
+      }
+      .header a {
+        float: left;
+        display: block;
+        text-align: center;
+        padding: 5px 10px;
+        text-decoration: none;
+        font-size: 20px;
+      }
+
+      .header .login-container {
+        float: right;
+      }
 
       .hero {
         overflow: auto;
@@ -70,10 +89,15 @@
     </style>
   </head>
   <body>
-    <header>
-      LOGO
-      <h1 style="text-align: center">Company reviews</h1>
-    </header>
+    <div class="header" style="height: 7vh">
+      <a class="active" href="index.html" style="color: #2035bb"
+        ><b>JobMarket</b></a
+      >
+      <a href="page4.html" style="color: #2035bb">Company Review</a>
+      <div class="login-container">
+        <a href="nevtreh.html" style="color: #2035bb">Sign in</a>
+      </div>
+    </div>
     <!-- The flexible grid (content) -->
     <div class="row">
       <div class="side">

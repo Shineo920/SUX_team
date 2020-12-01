@@ -19,9 +19,6 @@ body {
   padding: 15px;
 }
 
-html {
-  font-family: "Lucida Sans", sans-serif;
-}
 .menu ul {
   list-style-type: none;
   margin: 0;
@@ -107,10 +104,6 @@ html {
   font-size: 12px;
 }
 
-.header a:hover {
-  background-color: #efefef;
-}
-
 .header a.active {
   color: #2035bb;
 }
@@ -127,4 +120,11 @@ img {
 
 .row {
   padding-top: 5vh;
+}
+
+.material-icons {
+  position: absolute;
+  cursor: pointer;
+  margin-left: 50px;
+  font-size: 18px;
 }

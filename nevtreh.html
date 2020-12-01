@@ -1,61 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="keywords" content="job search,ажил хайх, ажлын зар"/>
-    <meta name="description" content="job searching web for employee and employer"/>
-    <meta name="author" content="Shineo"/>
-    <meta http-equiv="refresh" content="30"/>
-
-    <title>Sign in</title>
-    
-  <style type="text/css"></style>
-   <link rel="stylesheet" type="text/css" href="Style-nevtreh.css">
+    <meta name="keywords" content="job search,ажил хайх, ажлын зар" />
+    <meta
+      name="description"
+      content="job searching web for employee and employer"
+    />
+    <meta name="author" content="Shineo" />
+    <meta http-equiv="refresh" content="30" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Шинэ хаяг үүсгэх</title>
+    <link rel="stylesheet" type="text/css" href="Style-nevtreh.css" />
+    <style type="text/css"></style>
   </head>
-  <body>
-
+  <body>   
     <div class="header" style="height: 7vh">
-      <a class="active" href="index.html" style="color: #2035bb">JobMarket</a>
+      <a class="active" href="index.html" style="color: #2035bb"><b>JobMarket</b></a>
       <a href="page4.html" style="color: #2035bb">Company Review</a>
       <div class="login-container">
         <a href="nevtreh.html" style="color: #2035bb">Sign in</a>
       </div>
     </div>
 
-    <div style="margin-top: 30px;">
-      <form action="/action_page.php" method="post" >
-          <div class="imgcontainer">
-             <img src="123.png" alt="Avatar" class="avatar" />
-          </div>
-
-          <div class="container">
-            <div class="col-12">
-              <label for="uname" style="font-size: 15px"><b>Цахим хаяг</b></label>
-              <p><input type="text" name="uname" required style="width: 100%;height: 35px;border-radius: 25px;" /></p>
-            </div>
-            <div class="col-12">
-              <label for="psw" style="font-size: 15px"><b>Нууц үг</b></label>
-              <p><input type="password" name="psw" required style="width: 100%;height: 35px;border-radius: 25px" /></p>
-            </div>
-            <div>
-              <button type="submit" style="height: 40px">Нэвтрэх</button>
-             </div>
-             <div>
-              <label>
-                <input type="checkbox" checked="checked" name="remember" style="margin-top: 20px" /> Санах
-              </label>
-            </div>
-            </div>
-          </div>
-
-      <div class="container" style=" text-align: center">
-            
-            <button type="button" class="cancelbtn">
-                 <a href="burguuleh(1).html" style="color: #2035bb;font-size: 12px;text-decoration: none;">Шинэ хаяг үүсэх</a>
-            </button>  
-      </div>
-    </form>
+<form action="/action_page.php" style="border:1px solid black;margin-top: 50px;">
+  <p style="font-size: 20px;margin-top: 10px">Нэвтрэх хэсэг</p>
+  
+  <div class="container"> 
+    <div>
+        <label for="email" style="font-size: 15px">Цахим хаяг</label>
+        <p><input type="text" name="email" required style="border :0.5px solid #2035bb;height: 30px"></p>
+     </div>
+     <div>
+        <label for="psw" style="font-size: 15px">Нууц үг</label>
+        <p> <input type="password"  name="psw" style="border :0.5px solid #2035bb;height: 30px" required></p>
+     </div>
+     <a href="#" class="signinbtn">Нэвтрэх</a>
+     <a href="burguuleh(1).html" class="loginbtn">Шинэ хаяг үүсгэх</a>
   </div>
-  </body>
+  
+  <div>
+    <p style="font-size: 16px;margin-top: 10px;"> ————————— or —————————</p>
+  </div>
+    <div class="clearfix">
+      <a href="#" class="fb btn">
+        <i class="fa fa-facebook fa fw" style="color: white;margin-right: 10px;">
+       </i>
+        Sign in with Facebook
+      </a>
+      <a href="#" class="google btn">
+        <i class="fa fa-google fa fw" style="color: white;margin-right: 10px;">
+       </i>
+        Sign in with Google
+      </a>
+    </div>
+  </div>
+</form>
+</body>
 </html>
