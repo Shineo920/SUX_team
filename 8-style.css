@@ -1,0 +1,101 @@
+
+main {
+    margin-top: 3vw;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 10vw 20vw 30vw 30vw 20vw;
+    grid-template-areas: 
+        ". . title title ."
+        ". profile slide slide ."
+        ". button-1 slide slide ."
+        ". button-2 slide slide ."
+        ". . button-3 button-4 ."
+        ". . button-5 button-5 ."
+    ;
+}
+
+.title {
+    margin-bottom: 4%;
+    padding: 2%;
+    color: #FFFFFF;
+    background-color: #73A9F1;
+    width: 26vw;
+    height: 6vh;
+    border-radius: 2rem;
+    grid-area: title;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+}
+
+#frame {
+    padding: 12%;
+    justify-self: center;
+    border: .3vh solid #707070;
+    grid-area: profile;
+    width: 13vw;
+    height: 13vw;
+    border-radius: 100%;
+    background-color: #FFFFFF;
+}
+
+.profile {
+    width: 8vw;
+    height: 8vw;
+    background-image: url(imgs/user.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#slide {
+    grid-area: slide;
+    width: 50vw;
+    height: 40vh;
+    justify-self: center;
+    margin-bottom: 2vh;
+}
+
+button {
+    width: 22vw;
+    height: 6vh;
+    margin-top: 2vh;
+    border-radius: 2rem;
+    color: #fff;
+    border: none;
+    padding: 2%;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+}
+
+#button-1 {
+    background-color: #F59172;
+    border-radius: 0;
+    grid-area: button-1;
+    width: 13vw;
+}
+
+#button-2 {
+    background-color: #F59172;
+    border-radius: 0;
+    grid-area: button-2;
+    width: 13vw;
+}
+
+#button-3 {
+    background-color: #50FB5B;
+    grid-area: button-3;
+    margin-left: 3vw;
+}
+
+#button-4 {
+    background-color: #73A9F1;
+    grid-area: button-4;
+    margin-right: 3vw;
+}
+
+#button-5 {
+    background-color: #FFFFFF;
+    color: #707070;
+    grid-area: button-5;
+}
