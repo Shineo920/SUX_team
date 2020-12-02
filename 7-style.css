@@ -1,0 +1,77 @@
+
+main {
+    margin-top: 8vw;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 10vw 20vw 30vw 30vw 20vw;
+    grid-template-areas: 
+        ". profile title title ."
+        ". profile form form ."
+        ". . button button ."
+    ;
+}
+
+.title {
+    margin-bottom: 4%;
+    margin-left: 13vw;
+    padding: 2%;
+    color: #FFFFFF;
+    background-color: #73A9F1;
+    width: 26vw;
+    height: 6vh;
+    border-radius: 2rem;
+    grid-area: title;
+    align-self: center;
+    text-align: center;
+}
+
+#frame {
+    padding: 12%;
+    justify-self: end;
+    border: .3vh solid #707070;
+    grid-area: profile;
+    width: 13vw;
+    height: 13vw;
+    border-radius: 100%;
+    background-color: #FFFFFF;
+}
+
+.profile {
+    width: 8vw;
+    height: 8vw;
+    background-image: url(imgs/user.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+form {
+    grid-area: form;
+    margin-left: 5vw;
+}
+
+.box input[type="text"] {
+    padding: 1%;
+    margin: 0% 0% 2% 0%;
+    text-align: start;
+    width: 80%;
+    height: 15%;
+    border: 1px solid #707070;
+}
+
+.box input[type="text"]:focus {
+    border-color: #73A9F1;
+}
+
+button {
+    margin-top: 3%;
+    margin-left: 17vw;
+    width: 18vw;
+    height: 6vh;
+    border-radius: 2rem;
+    background-color: #73A9F1;
+    color: #fff;
+    border: none;
+    padding: 2%;
+    text-align: center;
+    grid-area: button;
+}
