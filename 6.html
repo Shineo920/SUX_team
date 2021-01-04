@@ -3,38 +3,66 @@
   <head>
     <meta charset="utf-8">
     <title>6th page</title>
+    <link rel="stylesheet" href="general.css" type="text/css">
+    <link rel="stylesheet" href="6-style.css" type="text/css">
   </head>
   <body>
+
+<!---------------------- Nav ---------------------------->
+    <header>
+      <nav>
+            <div class="home"><a href="5.html"><p class="home">JOBMARKET</p></a></div>
+            <div class="review"><a href="5.html"><p class="review">Company Reviews</p></a></div>
+            <div class="nav_profile"><a href="5.html"><img src="imgs/user.png" class="nav_profile" alt="user"></a></div>
+      </nav>
+    </header>
+<!------------------------------------------------------->
+
+<!-------------------------- Title -------------------------->
     <section>
-      <div class="">
-        <h3>МИНИЙ АНКЕТ</h3>
+      <div class="title">
+        МИНИЙ АНКЕТ
       </div>
     </section>
+<!----------------------------------------------------------->
 
-    <section>
-      <div class="">
-        <img src="https://icon-library.com/images/icon-of-a-person/icon-of-a-person-22.jpg" alt="">
-      </div>
-    </section>
+    <main>
 
-    <section>
-      <div class="">
-        <p>Овог:</p>
-        <p>Нэр:</p>
-        <p>Регистер:<p>
-        <p>Ургийн овог:<p>
-        <p>Мэргэжил:<p>
-        <p>Боловсрол<p>
-        <p>Хэлний мэдлэг:<p>
-        <p>Ажлийн туршлага:<p>
-        <p>Гэрийн хаяг:<p>
-      </div>
-      </section>
+   <!-------------------------- Profile -------------------------->
+      <article id="profile">
+        <div class="profile"></div>
+      </article>
 
-      <section>
-      <div class="">
-        <textarea name="name" rows="8" cols="80" placeholder="Нэмэлт мэдээлэл"></textarea>
-      </div>
-    </section>
+      <button  id="button-1">ХАДГАЛСАН ЗАРУУД</button>
+   <!------------------------------------------------------------->
+
+
+   <!-------------------------- Form -------------------------->
+      <form action="" method="POST" class="box" id="container-1">
+          <input type="text" name="" placeholder="Ургийн овог">
+          <input type="text" name="" placeholder="Овог">
+          <input type="text" name="" placeholder="Нэр">
+          <input type="text" name="" placeholder="Ам бүл">
+          <input type="text" name="" placeholder="Гэрийн хаяг">
+          <input type="text" name="" placeholder="Гэр бүлийн гишүүд">
+     </form>
+     <form action="" method="POST" class="box" id="container-2">
+         <input type="text" name="" placeholder="Мэргэжил">
+         <input type="text" name="" placeholder="Ажлын туршлага">
+         <input type="text" name="" placeholder="Сургалт, дадлага">
+         <input type="text" name="" placeholder="Нэмэлт ур чадвар">
+         <input type="text" name="" placeholder="Хэлний мэдлэг">
+         <input type="text" name="" placeholder="Боловсрол">
+      </form>
+    <!---------------------------------------------------------->
+
+    <!-------------------------- Text area -------------------------->
+      <textarea name="name" placeholder="Шаардлагатай мэдээллийг энэ талбарт бөглөнө үү!"></textarea>
+      <button id="button-2">ИЛГЭЭХ</button>
+    <!---------------------------------------------------------------->
+
+    </main>
+
   </body>
+
 </html>
