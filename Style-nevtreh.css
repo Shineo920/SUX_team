@@ -56,12 +56,13 @@ button:hover {
   text-align: center;
 }
 form {
-  border: 2px solid black;
+  border: 2px solid white;
   text-align: center;
   box-sizing: 20px;
   width: 50%;
   margin-left: 23%;
   background-color: white;
+  border-radius: 25px;
 }
 
 @media screen and (max-width: 300px) {
