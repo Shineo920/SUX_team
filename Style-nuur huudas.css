@@ -128,3 +128,7 @@ img {
   margin-left: 50px;
   font-size: 18px;
 }
+
+.material-icons :visited {
+  color: #2035bb;
+}
