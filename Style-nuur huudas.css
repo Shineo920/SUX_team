@@ -68,6 +68,11 @@ body {
     width: 100%;
   }
 }
+
+header {
+  font-size: 30px;
+}
+
 .header {
   overflow: hidden;
   background-color: white;
@@ -237,4 +242,64 @@ form {
   text-decoration: none;
   width: 100%;
   margin-top: 30px;
+}
+.row1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.side {
+  flex: 30%;
+  padding: 20px;
+}
+.main {
+  flex: 70%;
+  padding: 20px;
+}
+.fakeimg {
+  width: 100%;
+  padding: 20px;
+}
+.card {
+  width: 80%;
+  height: 80px;
+  background-color: white;
+  margin: 20px;
+  border-radius: 25px;
+}
+.logo {
+  background-color: white;
+  border-radius: 90px;
+  height: 180px;
+  width: 180px;
+}
+@media screen and (max-width: 700px) {
+  .row,
+  .navbar {
+    flex-direction: column;
+  }
+}
+.footer {
+  padding: 20px;
+  text-align: center;
+}
+.image-container {
+  background-color: white;
+  width: 80%;
+  height: 400px;
+}
+.similars {
+  width: 280px;
+  height: 70px;
+  background-color: white;
+}
+.article {
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+  overflow: scroll;
+}
+.hero {
+  overflow: auto;
+  height: 600px;
+  width: 100%;
 }

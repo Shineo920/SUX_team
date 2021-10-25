@@ -1,104 +1,103 @@
-
 .title {
-    padding: 2%;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 1% auto 3% auto;
-    color: #FFFFFF;
-    background-color: #73A9F1;
-    width: 25vw;
-    height: 9vh;
-    border-radius: 2rem;
-    font-family: sans-serif;
+  padding: 2%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1% auto 3% auto;
+  color: #ffffff;
+  background-color: #73a9f1;
+  width: 25vw;
+  height: 9vh;
+  border-radius: 2rem;
+  font-family: sans-serif;
 }
 
 main {
-    height: 70vh;
-    display: grid;
-    grid-template-columns: 10vw 20vw 30vw 30vw 10vw;
-    grid-template-areas: 
-        ". profile form form ."
-    ;
+  height: 70vh;
+  display: grid;
+  grid-template-columns: 10vw 20vw 30vw 30vw 10vw;
+  grid-template-areas: ". profile form form .";
 }
 
 @media only screen and (max-width: 700px) {
-    main {
-        display: grid;
-        grid-template-columns: 10vw 80vw 10vw;
-        grid-template-areas: 
-            ". profile ."
-            ". form ."
-        ;
-    }
-
-    .title {
-        width: 40vw;
-        height: 6vh;
-        margin-top: 3%;
-    }
-
-    #profile {
-        margin: auto;
-        margin-bottom: 3%;
-    }
-
-    #lname, #fname {
-        width: 90%;
-    }
-
+  main {
+    display: grid;
+    grid-template-columns: 10vw 80vw 10vw;
+    grid-template-areas:
+      ". profile ."
+      ". form .";
   }
 
-.profile {
-    width: 13vw;
-    height: 14.5vw;
-    background-image: url(imgs/user.png);
-    background-size: contain;
-    background-repeat: no-repeat;
+  .title {
+    width: 40vw;
+    height: 6vh;
     margin-top: 3%;
+  }
+
+  #profile {
+    margin: auto;
+    margin-bottom: 3%;
+  }
+
+  #lname,
+  #fname {
+    width: 90%;
+  }
+}
+
+.profile {
+  width: 13vw;
+  height: 14.5vw;
+  background-image: url(imgs/user.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 3%;
 }
 
 #profile {
-    background-color: white;
-    border: .3vh solid #707070;
-    grid-area: profile;
-    width: 15vw;
-    height: 16.5vw;
-    padding: 1%;
-    justify-self: end;
+  background-color: white;
+  border: 0.3vh solid #707070;
+  grid-area: profile;
+  width: 15vw;
+  height: 16.5vw;
+  padding: 1%;
+  justify-self: end;
 }
 
 form {
-    margin: 0 3vw;
-    text-align: center;
-    grid-area: form;
+  margin: 0 3vw;
+  text-align: center;
+  grid-area: form;
 }
 
-.box input[type="text"], .box input[type="password"], .box input[type="email"] {
-    padding: 1%;
-    margin: 0% 0% 2% 0%;
-    text-align: left;
-    border: 2px solid gray;
-    width: 90%;
-    height: 7vh;
+.box input[type="text"],
+.box input[type="password"],
+.box input[type="email"] {
+  padding: 1%;
+  margin: 0% 0% 2% 0%;
+  text-align: left;
+  border: 2px solid gray;
+  width: 90%;
+  height: 7vh;
 }
 
-#lname, #fname {
-    width: 45%;
+#lname,
+#fname {
+  width: 45%;
 }
 
-.box input[type="text"]:focus, .box input[type="password"]:focus, .box input[type="email"]:focus {
-    border-color: #73A9F1;
+.box input[type="text"]:focus,
+.box input[type="password"]:focus,
+.box input[type="email"]:focus {
+  border-color: #73a9f1;
 }
-
-
 
 .button1 {
-    width: 28vw;
-    height: 6vh;
-    border-radius: 2rem;
-    background-color: #73A9F1;
-    color: #fff;
-    border: none;
+  width: 28vw;
+  height: 6vh;
+  border-radius: 2rem;
+  background-color: #73a9f1;
+  color: #fff;
+  border: none;
 }
