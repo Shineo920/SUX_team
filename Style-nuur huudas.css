@@ -8,6 +8,10 @@ body {
   margin-left: 20px;
   margin-right: 20px;
 }
+.row {
+  padding-top: 5vh;
+  text-align: center;
+}
 .row::after {
   content: "";
   clear: both;
@@ -54,18 +58,15 @@ body {
 .col-3 {
   width: 25%;
 }
-
 .col-6 {
   width: 50%;
 }
-
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   [class*="col-"] {
     width: 100%;
   }
 }
-
 .header {
   overflow: hidden;
   background-color: white;
@@ -82,7 +83,6 @@ body {
   border-radius: 25px;
   height: 8vh;
 }
-
 .header a {
   float: left;
   display: block;
@@ -101,32 +101,46 @@ body {
   text-decoration: none;
   font-size: 12px;
 }
-
 .header a.active {
   color: #2035bb;
 }
-
 .header .login-container {
   float: right;
 }
-
 img {
   border-radius: 50%;
   width: 10vh;
   padding: 5px;
 }
-
 .row {
   padding-top: 5vh;
 }
-
 .material-icons {
   position: absolute;
   cursor: pointer;
   margin-left: 50px;
   font-size: 18px;
 }
-
 .material-icons :visited {
   color: #2035bb;
+}
+.image {
+  opacity: 1;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+  border-radius: 25px;
+}
+.text {
+  background-color: #2035bb;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  border-radius: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
 }
