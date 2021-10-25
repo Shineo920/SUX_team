@@ -13,12 +13,10 @@ body {
   clear: both;
   display: block;
 }
-
 [class*="col-"] {
   float: left;
   padding: 15px;
 }
-
 .menu ul {
   list-style-type: none;
   margin: 0;
