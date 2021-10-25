@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  text-align: center;
 }
 body {
   margin: 0;
@@ -211,4 +212,29 @@ form {
   text-decoration: none;
   width: 70%;
   margin-top: 20px;
+}
+
+.signinbtnn {
+  width: 100%;
+  padding: 12px;
+  border: 0.5px solid #2035bb;
+  color: #2035bb;
+  border-radius: 25px;
+  display: inline-block;
+  font-size: 15px;
+  line-height: 10px;
+  text-decoration: none;
+  width: 70%;
+  margin-top: 20px;
+}
+.loginbtnn {
+  width: 100%;
+  padding: 5px;
+  color: #2035bb;
+  display: inline-block;
+  font-size: 15px;
+  line-height: 10px;
+  text-decoration: none;
+  width: 100%;
+  margin-top: 30px;
 }
